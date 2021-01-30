@@ -1,0 +1,20 @@
+{
+	"name": "radio-prova",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"gitpush": "node git.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Lupetti-Lorenzo/-setup.git"
+	},
+	"keywords": [],
+	"author": "Lorenzo Lupetti <lorenzo.lupetti3@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Lupetti-Lorenzo/-setup/issues"
+	},
+	"homepage": "https://github.com/Lupetti-Lorenzo/-setup#readme"
+}
