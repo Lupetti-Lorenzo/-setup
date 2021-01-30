@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"gitpush": "node git.js"
+		"gitpush": "node gitpush.js"
 	},
 	"repository": {
 		"type": "git",
