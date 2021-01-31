@@ -1,0 +1,9 @@
+$colors: (
+	red: rgb(178, 34, 34),
+	blue: rgb(100, 149, 237),
+	dark: rgb(6, 4, 34),
+);
+
+@function getColor($color) {
+	@return map-get($colors, $color);
+}

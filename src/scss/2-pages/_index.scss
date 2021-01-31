@@ -1,0 +1,26 @@
+@use "../1-modules/colors";
+@use "../1-modules/flex";
+
+body {
+	background-color: colors.getColor(blue);
+	@include flex.flex-center;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	nav {
+		@include flex.flex-center(row);
+	}
+
+	.container {
+		background-color: colors.getColor(blue);
+		height: 500px;
+		width: 300px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-top: 1rem;
+		padding-top: 1.5rem;
+	}
+}

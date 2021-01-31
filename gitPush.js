@@ -5,9 +5,9 @@ args.splice(0, 2); //eliminate first 2,
 
 const message = args.join(" ");
 
-exec("git add .", add);
+exec("git add .", add); //add executed after exec returned, callback
 
-//callbacks after exec returned
+//callbacks
 function add(err) {
 	if (err) {
 		console.log(err);
