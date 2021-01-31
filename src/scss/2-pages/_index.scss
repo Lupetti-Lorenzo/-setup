@@ -2,7 +2,7 @@
 @use "../1-modules/flex";
 
 body {
-	background-color: colors.getColor(blue);
+	background-color: colors.getColor(dark);
 	@include flex.flex-center;
 	height: 100%;
 	width: 100%;

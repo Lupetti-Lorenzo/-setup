@@ -1,3 +1,5 @@
+//esempio: npm run gitpush -- commit the commit
+
 const { exec } = require("child_process");
 
 let args = process.argv;

@@ -6,6 +6,5 @@
         <title>Website setup</title>
     </head>
     <body>
-        <nav>
+        <nav></nav>
         
-        </nav>
