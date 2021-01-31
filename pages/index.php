@@ -12,7 +12,7 @@
             </div> 
             <div>
                 <input type="radio" name="rad" id="">
-            <label for="rad"><?php echo  "helddddooofffffo"; ?></label>
+            <label for="rad"><?php echo  "held"; ?></label>
             </div>
         </div>
 <?php 
